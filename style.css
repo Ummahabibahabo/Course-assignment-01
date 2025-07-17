@@ -337,3 +337,54 @@ nav {
 .btn-contact {
     width: 497px;
 }
+
+/* footer-style */
+.footer-section {
+    background-color: white;
+    margin-top: 100px;
+    padding: 10px 15px;
+}
+
+.footer-section-description {
+    max-width: 530px;
+    margin-bottom: 102px;
+    margin-top: 104px;
+}
+
+.footer-section-description h1 {
+    font-weight: 900;
+    font-size: 100px;
+    text-align: center;
+    color: rgb(78, 71, 255);
+}
+
+.footer-section-description p {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(137, 135, 161);
+}
+
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+
+}
+
+
+nav ul li {
+    list-style: none;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(137, 135, 161);
+    font-weight: 400px;
+    font-size: 16px;
+
+}
