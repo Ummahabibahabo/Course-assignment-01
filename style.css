@@ -1,14 +1,19 @@
 * {
     box-sizing: border-box;
     margin: 0px auto;
-}
-
-.head-section {
-    background: rgb(245, 248, 255);
     max-width: 1500px;
-    background-image: url(./images/Hero-bg.png);
+
 }
 
+body {
+    background: rgb(245, 248, 255);
+}
+
+header {
+    background-image: url(./images/Hero-bg.png);
+
+
+}
 
 nav {
     display: flex;
@@ -31,14 +36,14 @@ nav {
     background-color: rgb(78, 71, 255);
     border-radius: 10px;
     border: none;
-    width: 132px;
-    height: 48px;
+    padding: 12px 36px 12px 36px;
 }
 
 .banner {
     text-align: center;
-    margin: 300px 267.5px 280px 267.5px;
-    height: 600px;
+    max-width: 937px;
+    height: 400px;
+    margin-top: 158px;
 }
 
 .banner-title {
@@ -48,4 +53,43 @@ nav {
     text-align: center;
     align-items: center;
     margin-bottom: 50px;
+}
+
+/* action-sectioin */
+.action-section {
+    max-width: 937px;
+    margin-top: 80px;
+
+}
+
+.action-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.action-container {
+    width: 50%;
+    text-align: left;
+}
+
+.action-container-title {
+    font-weight: 700px;
+    font-size: 42px;
+    color: rgb(37, 36, 50);
+}
+
+.action-container-description {
+    font-weight: 400px;
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    margin-bottom: 40px;
+
+}
+
+.action-image {
+    width: 400px;
+    height: 328px;
+    border-radius: 48px;
 }
