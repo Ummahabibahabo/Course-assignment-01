@@ -140,7 +140,10 @@ nav {
 }
 
 /* users-style */
-
+.user-section {
+    max-width: 1200px;
+    margin-bottom: 140px;
+}
 
 .users-section-title {
     font-weight: 700;
@@ -148,9 +151,12 @@ nav {
     color: rgb(37, 36, 50);
     text-align: center;
     margin-top: 130px;
+
+
 }
 
 .users-container {
+    position: absolute;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -162,8 +168,9 @@ nav {
     border: 1px solid rgb(242, 237, 237);
     border-radius: 14px;
     background: rgba(255, 255, 255, 0.5);
-    padding: 20px;
-    width: 365px;
+    padding: 10px;
+    /* width: 365px; */
+
 }
 
 
@@ -223,4 +230,47 @@ nav {
     text-align: left;
     color: rgb(179, 179, 179);
     margin: 2px 0 0;
+}
+
+/* focus-section-style */
+
+.focus-section {
+    position: absolute;
+    max-width: 1200px;
+    align-items: center;
+    padding: 71px 100px 71px 100px;
+    gap: 20px;
+    border-radius: 14px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 300px;
+    justify-content: center;
+}
+
+.focus-section-better-title {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.focus-section-better-sub-title {
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.focus-section-image {
+    width: 840px;
+    height: 365px;
+    border-radius: 48px;
+    margin-top: 40px;
+
+}
+
+.better-btn {
+    margin-top: 20px;
 }
