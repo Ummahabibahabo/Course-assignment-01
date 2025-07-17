@@ -44,6 +44,7 @@ nav {
     max-width: 937px;
     height: 400px;
     margin-top: 158px;
+    align-items: center;
 }
 
 .banner-title {
@@ -59,6 +60,7 @@ nav {
 .action-section {
     max-width: 937px;
     margin-top: 80px;
+
 
 }
 
@@ -106,6 +108,7 @@ nav {
     background: rgba(78, 71, 255, 0.1);
     margin-top: 100px;
 
+
 }
 
 .productive-section-title {
@@ -142,7 +145,8 @@ nav {
 /* users-style */
 .user-section {
     max-width: 1200px;
-    margin-bottom: 140px;
+    margin-bottom: 60px;
+
 }
 
 .users-section-title {
@@ -235,7 +239,7 @@ nav {
 /* focus-section-style */
 
 .focus-section {
-    position: absolute;
+    /* position: absolute; */
     max-width: 1200px;
     align-items: center;
     padding: 71px 100px 71px 100px;
@@ -245,6 +249,7 @@ nav {
     text-align: center;
     margin-top: 300px;
     justify-content: center;
+
 }
 
 .focus-section-better-title {
@@ -273,4 +278,62 @@ nav {
 
 .better-btn {
     margin-top: 20px;
+}
+
+
+/* contact-style */
+
+.contact-section {
+    margin-top: 80px;
+    max-width: 1250px;
+}
+
+.contact-section-container {
+    display: flex;
+
+}
+
+.contact-section-title {
+    font-weight: 700px;
+    font-size: 97px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-top: 90px;
+
+
+}
+
+
+
+
+.contact-form {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 16px;
+    text-align: left;
+    align-items: flex-start;
+}
+
+.contact-form label {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    display: block;
+    margin-bottom: 8px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    box-sizing: border-box;
+    border: 1px solid rgb(214, 221, 237);
+    border-radius: 10px;
+    background-color: white;
+    padding: 32px 20px;
+    width: 497px;
+}
+
+.btn-contact {
+    width: 497px;
 }
